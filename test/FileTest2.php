@@ -13,7 +13,7 @@ class FileTest2 extends  TestCase {
    public function  testInsert() {
 
        $obj = new SrcFile2(); // dummy object for testing
-       $output = $obj->insert("author", "name, age, address", "'test',20,'linzerstraße'"); // store the sum of the array within a $output variable
+       $output = $obj->insert("authors", "name, age, address", "'test',2022,'linzerstraße'"); // store the sum of the array within a $output variable
         $this->assertEquals( // Built-in assertEquals() method for defining the test. It accepts three parameters
             "Success", // 1st param is the expected value
            $output, // 2nd param is the $output variable
